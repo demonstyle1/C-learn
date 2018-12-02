@@ -19,6 +19,6 @@ namespace ConsoleApp2
         ItemFood[] playerFoodbag = new ItemFood[5];  //Player Foodbag
         ItemPotion[] playerPotions = new ItemPotion[5]; //player potion bag
         ItemEquipment[] playerBckpack = new ItemEquipment[10]; //player weapon/armor pack
-
+                
     }
 }

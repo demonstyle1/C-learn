@@ -19,9 +19,10 @@ namespace ConsoleApp2
 
             potionName = pPotionName;
             potionDescription = pPotionDescription;
-            potionRegen = 
+            potionRegen = pPotionRegen;
+            potionAmount = pPotionAmount;
 
         }
-
+        
     }
 }

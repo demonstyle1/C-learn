@@ -8,26 +8,6 @@ namespace ConsoleApp2
 {
     class Func
     {
-        public static void Add()
-        {
-
-            int nmbr1; //random number 1 
-            int nmbr2; //random number 2
-            int total; //Total
-
-            Console.WriteLine("Input Number 1");
-            nmbr1 = Convert.ToInt32(Console.ReadLine()); //input for number 1
-
-            Console.WriteLine("Input Number 2");
-            nmbr2 = Convert.ToInt32(Console.ReadLine()); //input for number 2
-
-            total = nmbr1 + nmbr2; //adding number 1 and 2
-
-            Console.WriteLine("Total is: " + total); //output total
-            Console.WriteLine("Press Button to Continue");
-            Console.ReadKey(); //waiting for key press
-            
-        }
 
         public int TestInteger(string choice)
         {

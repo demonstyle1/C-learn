@@ -43,7 +43,5 @@ namespace ConsoleApp2
 
         }
 
-        ItemFood apple = new ItemFood("Apple", "Heals a tiny amount", 5, 1);
-
     }
 }

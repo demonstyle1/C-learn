@@ -23,7 +23,12 @@ namespace ConsoleApp2
 
             equipName = pEquipName;
             equipType = pEquipType;
-            equipDescription = p
+            equipDescription = pEquipDescription;
+            equipLevel = pEquipLevel;
+            equipHp = pEquipHp;
+            equipAtk = pEquipAtk;
+            equipDef = pEquipDef;
+            equipSpd = pEquipSpd;
 
         }
         

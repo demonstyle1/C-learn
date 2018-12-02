@@ -17,8 +17,8 @@ namespace TestConsole
             string choice;
             int intChoice;
 
-            // Console.WriteLine("Functions:\n");
-            // Console.WriteLine("1 Add");
+            Console.WriteLine("Choices:\n");
+            Console.WriteLine("1 Look for Food");
             Console.WriteLine("Please input a Selection");
             choice = Console.ReadLine();
 
@@ -26,18 +26,7 @@ namespace TestConsole
 
             intChoice = Convert.ToInt32(choice);
 
-            switch (intChoice)
-            {
-                case 1:
-                    Console.WriteLine("Case 1");
-                    break;
-                case 2:
-                    Console.WriteLine("Case 2");
-                    break;
-                default:
-                    Console.WriteLine("Default case");
-                    break;
-            }
+            
 
             Console.WriteLine("Press Button to Continue");
             Console.ReadKey(); //waiting for key press
