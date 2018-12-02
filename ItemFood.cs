@@ -30,7 +30,7 @@ namespace ConsoleApp2
             if (foodAmount > 0) //if the player has the item
             {
 
-                Player.hp = Player.hp + foodAmount; //heal the player by the regen amount
+                //Player.hp = Player.hp + foodAmount; //heal the player by the regen amount
                 foodAmount--; //reduce amount by 1
 
             }

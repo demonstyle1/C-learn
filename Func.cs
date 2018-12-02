@@ -9,12 +9,12 @@ namespace ConsoleApp2
     class Func
     {
 
-        public int TestInteger(string choice)
+        public string TestInteger(string choice)
         {
 
             var nmbrAsString = choice;
 
-            int numberX; //return number
+            int numberX; //test int
 
             while (int.TryParse(nmbrAsString, out numberX) == false) //test if input not number
             {
@@ -24,8 +24,9 @@ namespace ConsoleApp2
 
             }
 
+            choice = Convert.ToString(numberX);
             Console.WriteLine("Your number is: " + numberX); //output number
-            return numberX;
+            return choice;
 
         }
 
